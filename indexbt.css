@@ -1,0 +1,128 @@
+body{  
+	border-left: 18px solid #606060;
+	border-right: 18px solid #606060;
+	border-bottom: 18px solid #606060;
+}	
+.color{
+	color: #9D2A2D;
+	font-size: 1.86vw;
+}
+.para{
+	text-decoration: overline #606060;
+	font-size: 3.45vw;
+}
+li a:hover{
+	background-color: #111;
+}
+nav, .danger{
+	background-color: #7F0F0E;
+}
+.getyou{
+	font-size: 1.32vw;
+}
+.back{
+	background: url("../img-kf/form_bg.jpg");
+	background-size: cover;
+}
+.black{
+	color:#000000;
+	font-size: 1.4vw;
+}
+.rotat{
+	transform: rotate(18deg);
+}
+.secinp{
+	width: 80%;
+}
+.clrbut{
+	background-color: #BB070A;
+}
+.maroon{
+	color: #7F0F0E;
+}
+.bkgrey{
+	background-color: #838383
+}
+.image{
+	width: 6%;
+	height: 78px;
+}
+.lightgre{
+	color: #C6C6C6;
+}
+.bordr{
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+}
+
+@media (max-width:576px) {
+navbar-toggler{
+		float: center;
+}
+ul{
+		text-align: center;
+}
+.color{
+	font-size: 2.86vw;
+}
+.para{
+	font-size: 5.45vw;
+}
+.getyou{
+	font-size: 2.1vw;
+}
+.black{
+	font-size: 2.6vw;
+}
+.italli {
+	font-size: 2.5vw;
+}
+.clrbut{
+	font-size: 2.5vw;
+}
+.bordr{
+	border-left: none;
+	border-right: none;
+}
+.abc{
+	    margin-bottom: -5px;
+}
+}
+@media (min-width: 576px) and(max-width: 768px) {
+
+ul{
+	text-align:center;
+}
+.color{
+	font-size: 2.86vw;
+}
+.para{
+
+	font-size: 5.45vw}
+.getyou{
+	font-size: 2.1vw;
+}
+.black{
+	font-size: 2.6vw;
+}
+.italli {
+	font-size: 2.5vw;
+}
+.clrbut{
+	font-size: 2.5vw;
+}
+.bordr{
+	border-left: none;
+	border-right: none;
+}
+.abc{
+	    margin-bottom: 0px;
+}
+
+}
+@media (min-width: 992px) and (max-width: 1300px){
+	hr{
+		width: 100%;
+	}
+
+}
